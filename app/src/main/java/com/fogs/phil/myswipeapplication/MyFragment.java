@@ -23,24 +23,11 @@ public class MyFragment extends Fragment{
     public MyFragment(){
     }
 
-    Button ClickMe;
-    TextView tv;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.my_fragment, container, false);
-        ClickMe = (Button) rootView.findViewById(R.id.button);
-        tv = (TextView) rootView.findViewById(R.id.textView2);
+        View rootView = inflater.inflate(R.layout.players, container, false);
 
-        ClickMe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(tv.getText().toString().contains("Hello")){
-                    tv.setText("Hi");
-                }else tv.setText("Hello");
-            }
-        });
 
     return rootView;
     }
