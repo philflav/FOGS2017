@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Course Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:layout_weight="1"
+            android:textAlignment="gravity"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <Button
+            android:text="New Course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView11"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP1"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI1"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView12"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP2"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI2"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView13"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP3"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI3"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView14"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP4"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI4"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView15"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP5"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI5"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView16"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP6"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI6"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="7"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView17"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP7"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI7"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView18"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP8"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI8"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView19"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP9"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI9"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView20"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP10"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI10"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="11"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView21"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP11"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI11"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="12"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView22"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP12"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI12"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="13"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView23"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP13"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI13"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="14"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView24"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP14"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI14"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="15"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView25"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP15"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI15"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="16"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView26"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP16"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI16"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="17"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView27"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP17"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI17"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <TextView
+            android:text="18"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView28"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP18"
+            android:hint="par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI18"
+            android:text="SI"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

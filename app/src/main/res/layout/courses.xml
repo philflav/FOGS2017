@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="15"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:textSize="24sp"
+                    android:id="@+id/textView25"
+                    android:autoText="true"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/editP15"
+                    android:hint="par"
+                    tools:hint="Par"
+                    android:layout_width="wrap_content"
+                    android:background="#eeffee"
+                    android:text="Par" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/editSI15"
+                    android:text="SI" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="14"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="24sp"
+                android:id="@+id/textView24"
+                android:autoText="true"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editP14"
+                android:hint="par"
+                tools:hint="Par"
+                android:layout_width="wrap_content"
+                android:background="#eeffee"
+                android:text="Par" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editSI14"
+                android:text="SI" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="16"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="24sp"
+            android:id="@+id/textView26"
+            android:autoText="true"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editP16"
+            android:hint="par"
+            tools:hint="Par"
+            android:layout_width="wrap_content"
+            android:background="#eeffee"
+            android:text="Par" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI16"
+            android:text="SI" />
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="17"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="24sp"
+                android:id="@+id/textView27"
+                android:autoText="true"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editP17"
+                android:hint="par"
+                tools:hint="Par"
+                android:layout_width="wrap_content"
+                android:background="#eeffee"
+                android:text="Par" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/editSI17"
+            android:text="SI" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="18"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+                android:textSize="24sp"
+                android:id="@+id/textView28"
+                android:autoText="true"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editP18"
+                android:hint="par"
+                tools:hint="Par"
+                android:layout_width="wrap_content"
+                android:background="#eeffee"
+                android:text="Par" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editSI18"
+                android:text="SI" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+

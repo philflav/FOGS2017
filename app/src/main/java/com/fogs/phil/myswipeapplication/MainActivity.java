@@ -94,6 +94,7 @@ public class MainActivity extends FragmentActivity {
             switch(position){
                 case 0:  return PlaceholderFragment.newInstance(position + 1);
                 case 1 : return MyFragment.newInstance();
+                case 2 : return CoursesFragment.newInstance();
                 // default: return MyFragment.newInstance();
 /* It is better to use default so that it always returns a fragment and no problems would ever occur */
             }
@@ -101,8 +102,8 @@ public class MainActivity extends FragmentActivity {
         }
         @Override
         public int getCount() {
-            // Show 2 total pages.
-            return 2;
+            // Show 3 total pages.
+            return 3;
         }
 
         @Override
