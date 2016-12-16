@@ -10,4 +10,7 @@
     <string name="contact_details">Contact Details</string>
     <string name="savePlayer">Save</string>
     <string name="handicap">Handicap</string>
+    <string name="si">SI</string>
+    <string name="par">Par</string>
+    <string name="click_me">Click Me</string>
 </resources>
